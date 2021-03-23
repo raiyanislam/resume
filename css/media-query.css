@@ -1,0 +1,164 @@
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  h1, h3 {
+    color: red;
+    font-size: 40px;
+  }
+
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .nav-item {
+    background-color: #02A23A;
+  }
+
+  #section1 {
+    padding-top: 25%;
+  }
+
+  #section1 h1 {
+    font-size: 170%;
+  }
+
+  .sec1img h4 {
+    font-size: 100%;
+  }
+
+  .section-heading {
+    font-size: 180%;
+  }
+
+  #intro {
+    width: 55vh;
+  }
+
+  .hsc:before {
+    content: "H.S.C +";
+  }
+
+  .ssc:before {
+    content: "S.S.C +";
+  }
+
+  .partners {
+    background-color: #fbfbfb;
+  }
+
+  .owl-carousel .owl-item img {
+    width: auto;
+    height: 50px;
+  }
+
+  .carousel-indicators {
+    bottom: -20px
+  }
+
+  .blockquote {
+    line-height: 130%;
+    margin-top: 0;
+  }
+
+  .blockquote p {
+    padding: 0 5%;
+  }
+
+  .portfolio-bg {
+    height: 200px;
+  }
+
+  .carousel-item {
+    padding: 0% 12%;
+  }
+
+  .contact .container {
+    margin-top: 30%;
+  }
+
+  .contact a, .or {
+    font-size: 70%;
+  }
+
+  .col-md-3, .col-lg-3, .work-portfolio li {
+    width: 50%;
+  }
+
+  .social-site .img-responsive {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #intro {
+    width: 55vh;
+  }
+  .nav-item {
+    background-color: #02A23A;
+  }
+
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+
+  .portfolio-bg {
+    height: 200px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-item {
+    background-color: #02A23A;
+  }
+
+  .contact .container {
+    margin-top: 13%;
+  }
+
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+
+  .portfolio-bg {
+    height: 200px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+}

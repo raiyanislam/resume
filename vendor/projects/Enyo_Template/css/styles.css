@@ -1,0 +1,211 @@
+body{
+    background-image: url(../images/Enyo_template-Symu_co.png);
+    background-size: 100% 100%;
+    padding: 0%;
+    padding-bottom: 5%;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+#section1{
+    padding: 1% 5%;
+    margin: auto;
+    margin-bottom: 250px;
+}
+#section1 a, .navbar-right a{
+    color: white;
+    text-decoration: none;
+}
+.nav>li>a:focus, .nav>li>a:hover
+{
+    background: none;
+}
+#section1 .col-md-8{
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+#section1 p{
+    font-size: 14px;
+    margin: auto;
+    padding: 10px;
+    color: #bbd8ff;
+}
+#section1 h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin: auto;
+    letter-spacing: 3px;
+}
+.btn-down{
+    height: 35px;
+    width: 150px;
+    background: #25365d;
+    border: 1px solid #25365d;
+    color: #ffffff;
+    border-radius: 50px;
+}
+/* ------ section1 end ------*/
+#section2{
+    padding: 10% 8%;
+    margin: auto;
+    margin-top: -150px;
+}
+#section2 h1{
+    text-align: center;
+    font-size: 110px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin: auto;
+    position: absolute;
+    bottom: -70px;
+}
+#section2 h3{
+    color: #25365d;
+    padding-left: 15px;
+    position: relative;
+}
+#section2 p{
+    padding-left: 50px;
+    font-size: 12px;
+}
+#section2 a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 12px;
+    color: #6583ab;
+}
+.btn-read{
+    height: 35px;
+    width: 120px;
+    background: #25365d;
+    border: 1px solid #25365d;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+#section2 .col-sm-12{
+    position: absolute;
+    bottom: 40px;
+}
+.col-md-6 sec2{
+    position: relative;
+    background-color: coral;
+}
+a .fa-check-circle{
+    font-size: 13px;
+    color: #ff5084;
+}
+/* ---- section2 end -----*/
+#section3{
+    padding: 6% 8%;
+    background-color: #eaeaea;
+}
+#section3 p{
+    font-size: 12px;
+    color: #5a5a5a;
+}
+#section3 .col-md-3{
+    margin-top: -10px;
+}
+#section3 h5{
+    color: #25365d;
+    font-weight: 600;
+}
+#section3 .fas, .far{
+    font-size: 40px;
+}
+/* ---- section3 end ----*/
+#section4{
+    padding: 5%;
+}
+#section4 h2{
+    text-align: center;
+    color: #25365d;
+}
+/*section 4 end --------*/
+#section5{
+    padding: 5%;
+    background-color: #eaeaea;
+}
+#section5 p{
+    color: #5a5a5a;
+}
+#section5 h2, h5{
+    color: #25365d;
+}
+#section5 .col-md-3{
+    background-color: white;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+}
+#section5 .row-center{
+    margin: 5%;
+}
+#section5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.fa-phone{
+    transform: rotate(90deg);
+}
+/*section5 end ------*/
+#section6{
+    padding: 5%;
+}
+#section6 .col-md-2{
+    padding: 9%;
+}
+#section6 .col-md-8{
+    text-align: center;
+    margin: auto;
+}
+#section6 p{
+    color: #5a5a5a;
+}
+/*section6 end ---- */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    #section2 .col-md-6 img{
+        width: 80%;
+        margin-left: 90px;
+        }
+     #section3 .container-fluid, .row {
+        text-align: center;    
+     }
+    .col-md-1 img{
+        margin: auto;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #section3 .container-fluid, .row {
+        text-align: center;
+    }
+    #section4 h2, p{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #section3 .container-fluid, .row {
+        text-align: center;
+    }
+}
+
+
+
+

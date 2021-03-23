@@ -1,0 +1,176 @@
+.navbar-fixed-top{
+    background: rgba(0,2,2,0.4);
+    z-index: 8;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    position: absolute;
+    color: #fff;
+    position: fixed;
+}
+.navbar-default .navbar-collapse{
+    padding: 50px 0px;
+    margin-right: 20px;
+}
+.nav-center a{
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#section1{
+    padding: 20% 0%;
+    background-image: url(../images/Photo.png);
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: 0.98;
+    color: #fff;
+}
+#section1 .button{
+    padding: 10px;
+    background: transparent;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;   
+}
+#section1 .button:hover{
+    padding: 10px;
+    background: #e59205;;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #e59205;   
+}
+#section2{
+    padding: 5%;
+}
+#section2 .row{
+    padding: 5% 0%;
+}
+#section2 .img-thumbnail{
+    width: 85%;
+    height: auto;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 1px 1px #d5d6da;
+}
+#section2 .button{
+    padding: 10px;
+    background: transparent;
+    color: #6e7498;
+    border:1px solid #6e7498; margin: 10px;  
+}
+#section2 .button:hover{
+    padding: 10px;
+    background: #e59205;
+    color: #fff;
+    border:1px solid #e59205; margin: 10px;  
+}
+.zoom {
+    padding: 0px;
+    transition: transform .5s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.zoom:hover {
+    -ms-transform: scale(1.4); /* IE 9 */
+    -webkit-transform: scale(1.4); /* Safari 3-8 */
+    transform: scale(1.4);
+}
+#section3{
+    padding: 5% 0%;
+}
+#section3 .img-responsive{
+   margin-left: 15px;
+}
+#section4{
+    padding-top: 5%;
+}
+#section4 .button{
+    padding: 10px;
+    background: transparent;
+    color: #6e7498;
+    border:1px solid #6e7498; margin: 10px; 
+    margin-bottom: 30%;
+}
+#section4 .button:hover{
+    padding: 10px;
+    background: #e59205;
+    color: #fff;
+    border:1px solid #e59205;
+}
+#section4 .img-responsive{
+    width: 50px;
+    height: auto;
+}
+#section5{
+    background-image: url(../images/footer.png); background-size: 100% 100%;
+    padding: 5%;
+    color: #fff;
+}
+button, input, select, textarea{
+    padding: 10px 20px;
+    margin: 25px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+#section5 .button{
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    border:1px solid #fff; margin: 10px;  
+}
+#section5 .button:hover{
+    padding: 10px;
+    background: #e59205;
+    color: #fff;
+    border:1px solid #e59205; margin: 10px;  
+}
+#footer{
+    height: 60px;
+    width: auto;
+    color: #bbbecd;
+}
+#footer p{
+    margin-left: 0;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
