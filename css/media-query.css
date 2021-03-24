@@ -101,6 +101,7 @@
   #intro {
     width: 55vh;
   }
+
   .nav-item {
     background-color: #02A23A;
   }
@@ -160,5 +161,64 @@
 
   .ssc:before {
     content: "Secondary School Certificate +";
+  }
+}
+
+/* smallar to larger mobile phones screens */
+@media only screen and (max-width:480px) {
+  .logo {
+    height: 60px;
+  }
+
+  #section1 {
+    padding-top: 45%;
+  }
+
+  .sec1img .container-fluid {
+    width: 90%;
+  }
+
+  .about-section {
+    height: 100vh;
+  }
+
+  .about-para {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .service-para {
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .portfolio-bg {
+    height: 150px;
+  }
+
+  .partners {
+    height: 6.2rem;
+  }
+
+  #testimonials {
+    height: 75vh;
+  }
+
+  blockquote {
+    line-height: 1.2;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .carousel-indicators {
+    bottom: -2.5rem;
+  }
+
+  .text-white {
+    margin-top: 15%;
   }
 }
