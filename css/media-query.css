@@ -1,8 +1,75 @@
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hsc:before {
+    content: "Higher Secondary Certificate +";
+  }
+
+  .ssc:before {
+    content: "Secondary School Certificate +";
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
   h1, h3 {
     color: red;
     font-size: 40px;
+  }
+
+  .nav-item {
+    background-color: #02A23A;
+  }
+
+  .contact .container {
+    margin-top: 13%;
+  }
+
+  .hsc:before {
+    content: "H.S.C +";
+  }
+
+  .ssc:before {
+    content: "S.S.C +";
+  }
+
+  .portfolio-bg {
+    height: 200px;
+  }
+
+  .col-md-3, .col-lg-3,
+  .col-lg-6, .work-portfolio li {
+    width: 50%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #section1 {
+    padding-top: 25%;
+  }
+
+  #intro {
+    width: 55vh;
+  }
+
+  .nav-item {
+    background-color: #02A23A;
+  }
+
+  .col-md-3, .col-lg-3,
+  .work-portfolio li {
+    width: 50%;
   }
 
   .hsc:before {
@@ -11,6 +78,10 @@
 
   .ssc:before {
     content: "Secondary School Certificate +";
+  }
+
+  .portfolio-bg {
+    height: 200px;
   }
 }
 
@@ -96,74 +167,6 @@
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  #intro {
-    width: 55vh;
-  }
-
-  .nav-item {
-    background-color: #02A23A;
-  }
-
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
-  }
-
-  .portfolio-bg {
-    height: 200px;
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .nav-item {
-    background-color: #02A23A;
-  }
-
-  .contact .container {
-    margin-top: 13%;
-  }
-
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
-  }
-
-  .portfolio-bg {
-    height: 200px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
-  }
-}
-
 /* smallar to larger mobile phones screens */
 @media only screen and (max-width:480px) {
   .logo {
@@ -180,6 +183,7 @@
 
   .about-section {
     height: 100vh;
+    margin-bottom: 10%;
   }
 
   .about-para {
@@ -196,8 +200,21 @@
     line-height: 1;
   }
 
+  h4 {
+    font-size: 18px;
+  }
+
   .portfolio-bg {
     height: 150px;
+  }
+
+  .portfolio .label-text {
+    padding: 20px 0;
+  }
+
+  .portfolio .template-btn {
+    margin-top: 15px;
+    padding: 10px;
   }
 
   .partners {
