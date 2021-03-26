@@ -55,6 +55,10 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  body, html {
+    overflow-x: hidden;
+  }
+  
   #section1 {
     padding-top: 25%;
   }
@@ -87,6 +91,10 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
   .nav-item {
     background-color: #02A23A;
   }
@@ -169,6 +177,10 @@
 
 /* smallar to larger mobile phones screens */
 @media only screen and (max-width:480px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
   .logo {
     height: 60px;
   }
