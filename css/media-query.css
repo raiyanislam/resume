@@ -25,7 +25,7 @@
   body, html {
     overflow-x: hidden !important;
   }
-  
+
   h1, h3 {
     color: red;
     font-size: 40px;
@@ -183,6 +183,15 @@
 @media only screen and (max-width:480px) {
   body, html {
     overflow-x: hidden !important;
+  }
+
+  .sticky-nav {
+    width: 90%;
+  }
+
+  .navbar, .sticky-nav {
+    padding: 0;
+    margin: 0;
   }
 
   .logo {

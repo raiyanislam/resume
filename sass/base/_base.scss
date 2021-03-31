@@ -12,13 +12,12 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  overflow-y: scroll;
   font-family: 'Work Sans', 'Arial', sans-serif;
   font-weight: 300;
+  position: relative;
 }
 
-.row {
-  margin: 0 auto;
-}
 /* Preloader */
 #preloader {
   position: fixed;
@@ -92,7 +91,7 @@ html {
   z-index: 9;
   padding: 5px;
   height: 80px;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .sticky-nav .logo {
