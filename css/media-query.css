@@ -1,91 +1,94 @@
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  #section1 {
+    padding-top: 25%;
+    overflow: hidden;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  body, html {
-    overflow-x: hidden !important;
+  .jumbotron .text-white {
+    padding-top: -15%;
+  }
+  .ms-auto {
+    background-color: #fff;
   }
 
-  h1, h3 {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-bottom: 0;
+    color: #02fd5b;
+    border-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #section1 {
+    padding-top: 20%;
+    overflow: hidden;
+  }
+
+  h1,
+  h3 {
     color: red;
     font-size: 40px;
-  }
-
-  .nav-item {
-    background-color: #02A23A;
   }
 
   .contact .container {
     margin-top: 13%;
   }
 
-  .hsc:before {
-    content: "H.S.C +";
-  }
-
-  .ssc:before {
-    content: "S.S.C +";
-  }
-
   .portfolio-bg {
     height: 200px;
   }
 
-  .col-md-3, .col-lg-3,
-  .col-lg-6, .work-portfolio li {
+  .col-md-3,
+  .col-lg-3,
+  .col-lg-6,
+  .work-portfolio li {
     width: 50%;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  body, html {
-    overflow-x: hidden !important;
+  .ms-auto {
+    background-color: #fff;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-bottom: 0;
+    color: #02fd5b;
+    border-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 
   #section1 {
     padding-top: 25%;
+    overflow: hidden;
   }
 
   #intro {
     width: 55vh;
   }
 
-  .nav-item {
-    background-color: #02A23A;
-  }
-
-  .col-md-3, .col-lg-3,
+  .col-md-3,
+  .col-lg-3,
   .work-portfolio li {
     width: 50%;
-  }
-
-  .hsc:before {
-    content: "Higher Secondary Certificate +";
-  }
-
-  .ssc:before {
-    content: "Secondary School Certificate +";
   }
 
   .portfolio-bg {
@@ -95,16 +98,27 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  body, html {
-    overflow-x: hidden !important;
+  .ms-auto {
+    background-color: #fff;
   }
 
-  .nav-item {
-    background-color: #02A23A;
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-bottom: 0;
+    color: #02fd5b;
+    border-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 
   #section1 {
     padding-top: 25%;
+    overflow: hidden;
   }
 
   #section1 h1 {
@@ -116,19 +130,15 @@
   }
 
   .section-heading {
-    font-size: 180%;
+    font-size: 160%;
+  }
+
+  .service-heading {
+    font-size: 140%;
   }
 
   #intro {
     width: 55vh;
-  }
-
-  .hsc:before {
-    content: "H.S.C +";
-  }
-
-  .ssc:before {
-    content: "S.S.C +";
   }
 
   .partners {
@@ -141,7 +151,7 @@
   }
 
   .carousel-indicators {
-    bottom: -20px
+    bottom: -20px;
   }
 
   .blockquote {
@@ -161,15 +171,14 @@
     padding: 0% 12%;
   }
 
-  .contact .container {
-    margin-top: 30%;
-  }
-
-  .contact a, .or {
+  .contact a,
+  .or {
     font-size: 70%;
   }
 
-  .col-md-3, .col-lg-3, .work-portfolio li {
+  .col-md-3,
+  .col-lg-3,
+  .work-portfolio li {
     width: 50%;
   }
 
@@ -180,30 +189,44 @@
 }
 
 /* smallar to larger mobile phones screens */
-@media only screen and (max-width:480px) {
-  body, html {
-    overflow-x: hidden !important;
-  }
-
-  .sticky-nav {
-    width: 90%;
-  }
-
-  .navbar, .sticky-nav {
-    padding: 0;
-    margin: 0;
-  }
-
+@media only screen and (max-width: 480px) {
   .logo {
     height: 60px;
   }
 
+  .ms-auto {
+    background-color: #fff;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-bottom: 0;
+    color: #02fd5b;
+    border-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
   #section1 {
     padding-top: 45%;
+    overflow: hidden;
+  }
+
+  .jumbotron {
+    padding: 5%;
   }
 
   .sec1img .container-fluid {
     width: 90%;
+  }
+
+  .service-heading {
+    font-size: 140%;
   }
 
   .about-section {

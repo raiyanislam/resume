@@ -1,0 +1,28 @@
+.footer {
+  background: #040404;
+  text-align: center;
+  padding: $primary-padding;
+  color: $primary-gray;
+
+  #year {
+    display: inline;
+  }
+
+  a {
+    color: $secondary-2;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: $secondary-1;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .fas {
+    font-size: 16px;
+    color: $primary-gray;
+    line-height: 1.5;
+  }
+}
