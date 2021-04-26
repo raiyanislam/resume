@@ -173,7 +173,7 @@
 
   .contact a,
   .or {
-    font-size: 70%;
+    font-size: 90%;
   }
 
   .col-md-3,
@@ -215,6 +215,10 @@
   #section1 {
     padding-top: 5%;
     overflow: hidden;
+  }
+
+  #section1 .text-white {
+    margin-top: 70%;
   }
 
   .sec1img .container-fluid {
@@ -279,7 +283,8 @@
     bottom: -2.5rem;
   }
 
-  .text-white {
-    margin-top: 70%;
+  .contact {
+    padding-top: 25%;
+    background-color: #060606;
   }
 }
