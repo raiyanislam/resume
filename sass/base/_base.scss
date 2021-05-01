@@ -464,9 +464,11 @@ h3 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../images/contact-with-raiyan.jpg);
+    url(../images/contact-with-raiyan.webp);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    url(../images/contact-with-raiyan.jpg);
+    url(../images/contact-with-raiyan.webp);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 10%;
